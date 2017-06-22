@@ -1,0 +1,315 @@
+@font-face{
+	font-family: Ravenna;
+	src: url(../fonts/Ravenna.ttf);
+}
+@font-face{
+	font-family: Triforce;
+	src: url(../fonts/Triforce 2.ttf);
+}
+body{
+	margin: 0;padding: 0;
+	background: rgba(100, 100, 100, 0.2);
+}
+header{
+	width: 100%;
+	height: 110px;
+	background: rgba(255, 255, 255, 0.5);
+	position: relative;
+	top: 0px;
+	position: fixed;
+	z-index: 1000;
+
+}
+/*editando os H*/
+h3, h4, h5{
+	margin: 0px;
+}
+/*editando texto top*/
+
+a{
+ color: #000;
+ text-decoration: none;
+}
+li{
+	display: inline;
+	font-size: 40px;
+	margin-left: 25px;
+	padding-top: 10px;
+	position: relative;
+	left: 28%;
+	color: #000;
+	font-family: triforce;
+	
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	bottom: 75px;
+	left: 300px;
+}
+/*encerrando texto do top*/
+.section{
+	width: 100%;
+	height: 600px;
+	background: no-repeat url(../img/banner.png) ;
+}
+.historia{
+	width: 100%;
+	height: 720px;
+	background: no-repeat url(../img/historia.png);
+	
+}
+/* editando o texto da historia!*/
+.historia{
+	color: #7a7676;
+	font-family: triforce;
+	text-align: center; 
+	font-size: 30px;
+}
+.sub{
+	z-index: 1000;
+	width: 650px;
+	height: 100px;
+	position: relative;
+	top: 30px;
+	left: 520px;
+	border-color: rgba(255, 255, 255, 0.2) solid;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.6;
+}
+.hist{
+	white-space: pre-wrap;
+	text-align: center;
+
+}
+.persons{
+	width: 100%;
+	height: 600px;
+	background: no-repeat url(../img/personagens.png);
+	
+}
+/*editnaod o texto personagens*/
+.sub2{
+	width: 650px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	left: 520px;
+	top: 20px;
+	color: #0a0d0d;
+}
+.texp{
+	text-align: center;
+}
+.personagens{
+	color: #000;
+	font-family: triforce;
+	text-align: center; 
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+}
+/*editando os personagens*/
+.photo{
+	width: 100%;
+	height: 300px;
+	border: solid #fff;	
+
+}
+.img1{
+	width: 340px;
+	height: 350px;
+	float: left;
+	position: relative;
+	left: 150px;
+	white-space: pre-wrap;
+	text-align: center;
+
+}
+.img2{
+	float: left;
+	width: 350px;
+	height: 300px;
+	float: left;
+	white-space: pre-wrap;
+	text-align: center;
+	position: relative;
+	left: 90px;
+
+}
+.img3{
+	float: left;
+	width: 350px;
+	height: 300px;
+	float: left;
+	white-space: pre-wrap;
+	text-align: center;
+	position: relative;
+	left: 50px;
+
+}
+.img4{
+	float: left;
+	width: 350px;
+	height: 300px;
+	float: left;
+	white-space: pre-wrap;
+	text-align: center;
+	position: relative;
+	right: 20px;
+
+}
+/*acaba a formataçao do personagens*/
+.versoes{
+	width: 100%;
+	height: 2210px;
+	background: no-repeat url(../img/versoes.png);
+}
+/*editando o texto*/
+.tver{
+	text-align: center;
+	font-size: 30px;
+	font-family: triforce;
+}
+.txtv{
+	width: 720px;
+	height: 130px;
+	text-align: center;
+	position: relative;
+	left: 500px;
+	top: 10px;
+}
+/*acaba ediçao de texto*/
+.z1{
+	width: 700px;
+	height: 255px;
+	position: relative;
+	left: 300px;
+}
+.antigo{
+	float: left;
+}
+.texta{
+	font-size: 16px;
+	font-family: ravenna;
+}
+/*encerra o z1*/
+/*z2*/
+.z2{
+	width: 700px;
+	height: 255px;
+	position: relative;
+	left: 300px;
+}
+.recente{
+	float: left;
+	width: 353px;
+	height: 200px;
+}
+.textr{
+	font-size: 16px;
+	font-family: ravenna;
+}
+/*encerra o z2*/
+/*z3*/
+.z3{
+	width: 700px;
+	height: 255px;
+	position: relative;
+	left: 300px;
+}
+.futuro{
+	float: left;
+}
+.textf{
+	font-size: 16px;
+	font-family: ravenna;
+}
+/*encerra z3*/
+.contato{
+	width: 1300px;
+	height: 770px;
+	white-space: pre-wrap;
+	background: rgba(255, 255, 255, 0.5);
+	position: relative;
+	top: 200%;
+	right: 100px;
+	text-align: center;
+}
+/*editando o texto contato*/
+#contato{
+	font-size: 30px;
+	font-family: triforce;
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+}
+
+/*encerra*/
+
+.email{
+	font-size: 20px;
+	font-family: triforce;
+	position: relative;
+	right: 400px;
+	
+}
+.descricao{
+	font-family: triforce;
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	right: 370px;
+}
+footer{
+	width: 100%;
+	height: 90px;
+}
+em{
+	color:white;
+	padding-left: 20%;
+	position: relative;
+	top: 50px;
+}
+/*editando as sombras*/
+.sombra{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 536px;
+}
+.sombra2{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 548px;
+}
+.sombra3{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 64px;
+}
+/*EDITANDO O TEXTO RODAPE*/
+h6{
+	margin-left: 25px;
+	padding-top: 0px;
+	position: relative;
+	left: 38%;
+	float: left;
+	font-family: triforce;
+}
+.up{
+	width: 30px;
+	height: 30px;
+	border: none;
+	position: fixed;
+	top: 94%;
+	right: 50%;
+	opacity: 0.1;
+}
+.up:hover{
+	opacity: 1;
+}
